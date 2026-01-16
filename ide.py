@@ -106,7 +106,6 @@ code_output.pack(fill=BOTH, expand=1)
 code_output.config(yscrollcommand=output_scroll.set)
 output_scroll.config(command=code_output.yview)
 
-# Atalho F5
 compiler.bind('<F5>', lambda e: run_code())
 
 compiler.mainloop()
